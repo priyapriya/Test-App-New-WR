@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/profileImg"
+        android:src="@drawable/androidicon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/aNametxt"
+        android:text="Android Name"
+        android:textSize="30sp"
+        android:layout_marginTop="8dp"
+        android:maxLines="1"
+        android:textColor="#540e1b"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileImg"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/aUNameTitletxt"
+        android:text="User Name"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="#161c63"
+        android:layout_below="@+id/aNametxt"
+        android:layout_alignLeft="@+id/aNametxt"
+        android:layout_alignStart="@+id/aNametxt" />
+
+    <TextView
+        android:id="@+id/aUNametxt"
+        android:text="Android Type"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aNametxt"
+        android:layout_toRightOf="@+id/aUNameTitletxt"/>
+
+    <TextView
+        android:id="@+id/aEmailTitletxt"
+        android:text="Email"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="#161c63"
+        android:layout_below="@+id/aUNameTitletxt"
+        android:layout_alignLeft="@+id/aUNameTitletxt"
+        android:layout_alignStart="@+id/aUNameTitletxt" />
+    <TextView
+        android:id="@+id/aEmailtxt"
+        android:text="Android Version"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aUNametxt"
+        android:layout_toRightOf="@+id/aEmailTitletxt"/>
+
+    <TextView
+        android:id="@+id/aAddTitletxt"
+        android:text="Address"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="#161c63"
+        android:layout_below="@+id/aEmailTitletxt"
+        android:layout_alignLeft="@+id/aEmailTitletxt"
+        android:layout_alignStart="@+id/aEmailTitletxt" />
+    <TextView
+        android:id="@+id/aAddtxt"
+        android:text="Android Info"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aEmailTitletxt"
+        android:layout_toRightOf="@+id/aAddTitletxt"/>
+    <TextView
+        android:id="@+id/aPhoneTitletxt"
+        android:text="Phone"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="#161c63"
+        android:layout_below="@+id/aAddTitletxt"
+        android:layout_alignLeft="@+id/aAddTitletxt"
+        android:layout_alignStart="@+id/aAddTitletxt" />
+    <TextView
+        android:id="@+id/aPhonetxt"
+        android:text="Android Info"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aAddTitletxt"
+        android:layout_toRightOf="@+id/aPhoneTitletxt" />
+
+    <TextView
+        android:id="@+id/aWebsiteTitletxt"
+        android:text="Website"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="#161c63"
+        android:layout_below="@+id/aPhoneTitletxt"
+        android:layout_alignLeft="@+id/aPhoneTitletxt"
+        android:layout_alignStart="@+id/aPhoneTitletxt"/>
+    <TextView
+        android:id="@+id/aWebSitetxt"
+        android:text="Android Info"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aPhoneTitletxt"
+        android:layout_toRightOf="@+id/aWebsiteTitletxt"/>
+    <TextView
+        android:id="@+id/aCmpnyTitletxt"
+        android:text="Company"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="#161c63"
+        android:layout_below="@+id/aWebsiteTitletxt"
+        android:layout_alignLeft="@+id/aWebsiteTitletxt"
+        android:layout_alignStart="@+id/aWebsiteTitletxt"/>
+    <TextView
+        android:id="@+id/aCompanytxt"
+        android:text="Android Info"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aWebsiteTitletxt"
+        android:layout_toRightOf="@+id/aCmpnyTitletxt"/>
+
+<Button
+    android:id="@+id/buttonAdd"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_alignParentRight="true"
+    android:text="+"
+    android:textSize="20dp"
+    android:textAlignment="center"
+    android:gravity="center"
+    android:textColor="#FFFFFF"
+    android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
